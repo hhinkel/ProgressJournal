@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90299C724981F9E0011604B /* ProgressUpdateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90299C624981F9E0011604B /* ProgressUpdateTableViewController.swift */; };
+		C90299CD249820DD0011604B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90299CC249820DD0011604B /* CreateViewController.swift */; };
 		C957080F2496F91900405352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C957080E2496F91900405352 /* AppDelegate.swift */; };
 		C95708112496F91900405352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95708102496F91900405352 /* SceneDelegate.swift */; };
-		C95708132496F91900405352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95708122496F91900405352 /* ViewController.swift */; };
 		C95708162496F91900405352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95708142496F91900405352 /* Main.storyboard */; };
 		C95708192496F91900405352 /* Progress_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C95708172496F91900405352 /* Progress_Journal.xcdatamodeld */; };
 		C957081B2496F91B00405352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C957081A2496F91B00405352 /* Assets.xcassets */; };
 		C957081E2496F91B00405352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C957081C2496F91B00405352 /* LaunchScreen.storyboard */; };
+		C96512C824C08689004989EB /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96512C724C08689004989EB /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C90299C624981F9E0011604B /* ProgressUpdateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressUpdateTableViewController.swift; sourceTree = "<group>"; };
+		C90299CC249820DD0011604B /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		C957080B2496F91900405352 /* Progress Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progress Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C957080E2496F91900405352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95708102496F91900405352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C95708122496F91900405352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C95708152496F91900405352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C95708182496F91900405352 /* Progress_Journal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Progress_Journal.xcdatamodel; sourceTree = "<group>"; };
 		C957081A2496F91B00405352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C957081D2496F91B00405352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C957081F2496F91B00405352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96512C724C08689004989EB /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				C957080E2496F91900405352 /* AppDelegate.swift */,
 				C95708102496F91900405352 /* SceneDelegate.swift */,
-				C95708122496F91900405352 /* ViewController.swift */,
+				C90299C624981F9E0011604B /* ProgressUpdateTableViewController.swift */,
+				C90299CC249820DD0011604B /* CreateViewController.swift */,
+				C96512C724C08689004989EB /* UpdateViewController.swift */,
 				C95708142496F91900405352 /* Main.storyboard */,
 				C957081A2496F91B00405352 /* Assets.xcassets */,
 				C957081C2496F91B00405352 /* LaunchScreen.storyboard */,
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90299CD249820DD0011604B /* CreateViewController.swift in Sources */,
 				C95708192496F91900405352 /* Progress_Journal.xcdatamodeld in Sources */,
-				C95708132496F91900405352 /* ViewController.swift in Sources */,
+				C90299C724981F9E0011604B /* ProgressUpdateTableViewController.swift in Sources */,
 				C957080F2496F91900405352 /* AppDelegate.swift in Sources */,
 				C95708112496F91900405352 /* SceneDelegate.swift in Sources */,
+				C96512C824C08689004989EB /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A627RUXRJB;
 				INFOPLIST_FILE = "Progress Journal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A627RUXRJB;
 				INFOPLIST_FILE = "Progress Journal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
